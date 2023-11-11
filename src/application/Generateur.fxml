@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="700.0" minWidth="1200.0" prefHeight="476.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GenerateurController">
+   <children>
+      <ScrollPane layoutX="250.0" layoutY="29.0" prefHeight="560.0" prefWidth="700.0">
+         <content>
+            <AnchorPane fx:id="anchorPanePerso" minHeight="0.0" minWidth="0.0" prefHeight="125.0" prefWidth="680.0">
+               <children>
+                  <GridPane fx:id="GridPaneGenerateur" hgap="5.0" layoutX="12.5" layoutY="12.5" prefHeight="100.0" prefWidth="100.0" vgap="5.0">
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                  </GridPane>
+               </children>
+               <padding>
+                  <Insets right="50.0" />
+               </padding>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <ListView fx:id="listViewAttributs" layoutX="5.0" layoutY="28.0" prefHeight="555.0" prefWidth="227.0" />
+      <ListView fx:id="listViewArguments" layoutX="968.0" layoutY="28.0" prefHeight="382.0" prefWidth="227.0" />
+      <ListView fx:id="histoArguments" layoutX="968.0" layoutY="447.0" prefHeight="143.0" prefWidth="227.0" />
+      <ImageView fx:id="imgBtnCreerGrille" fitHeight="54.0" fitWidth="112.0" layoutX="355.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="249.0" layoutY="-2.0" mnemonicParsing="false" onAction="#multipleFileChooser" prefHeight="31.0" prefWidth="189.0" text="Ajouter des personnages">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button layoutX="121.0" layoutY="587.0" mnemonicParsing="false" onAction="#supprAttribut" prefHeight="31.0" prefWidth="93.0" text="-">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button layoutX="16.0" layoutY="587.0" mnemonicParsing="false" onAction="#afficheInputAttributs" prefHeight="31.0" prefWidth="93.0" text="+">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button layoutX="1087.0" layoutY="413.0" mnemonicParsing="false" onAction="#supprArgument" prefHeight="31.0" prefWidth="93.0" text="-" />
+      <Button layoutX="985.0" layoutY="413.0" mnemonicParsing="false" onAction="#afficheInputArguments" prefHeight="31.0" prefWidth="93.0" text="+">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <AnchorPane fx:id="inputArguments" layoutX="936.0" layoutY="630.0" prefHeight="85.0" prefWidth="276.0">
+         <children>
+            <TextField fx:id="textFieldArg" layoutX="61.0" layoutY="9.0" prefHeight="41.0" prefWidth="197.0" promptText="Argument">
+               <font>
+                  <Font size="19.0" />
+               </font></TextField>
+            <Button fx:id="addBtnArg" layoutX="3.0" layoutY="9.0" mnemonicParsing="false" onAction="#ajoutArgument" prefHeight="41.0" prefWidth="51.0" text="Add">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+         </children></AnchorPane>
+      <AnchorPane fx:id="inputAttributs" layoutX="-8.0" layoutY="614.0" prefHeight="96.0" prefWidth="293.0">
+         <children>
+            <TextField fx:id="textFieldAttr" layoutX="14.0" layoutY="9.0" prefHeight="41.0" prefWidth="197.0" promptText="Attribut">
+               <font>
+                  <Font size="19.0" />
+               </font></TextField>
+            <Button fx:id="addBtnAttr" layoutX="217.0" layoutY="9.0" mnemonicParsing="false" onAction="#ajoutAttribut" prefHeight="41.0" prefWidth="51.0" text="Add">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+         </children></AnchorPane>
+      <AnchorPane fx:id="AnchorButtonHisto2" layoutX="1062.0" layoutY="591.0" prefHeight="32.0" prefWidth="39.0" />
+      <Button layoutX="503.0" layoutY="594.0" mnemonicParsing="false" onAction="#genererGrille" prefHeight="25.0" prefWidth="181.0" text="Generer">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <TextField fx:id="nomGrille" layoutX="519.0" layoutY="650.0" promptText="Mettre nom grille !" />
+      <Button layoutX="685.0" layoutY="650.0" mnemonicParsing="false" onAction="#Sauvegarder" prefHeight="26.0" prefWidth="86.0" text="Sauvegarder" />
+      <Label fx:id="status" layoutX="728.0" layoutY="600.0" textFill="#4a6a9e">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="addArgHisto" layoutX="1032.0" layoutY="596.0" mnemonicParsing="false" onAction="#ajoutArgFromHisto" prefHeight="30.0" prefWidth="30.0" text="+" />
+      <Button fx:id="supprArgHisto" layoutX="1099.0" layoutY="596.0" mnemonicParsing="false" onAction="#supprArgHisto" prefHeight="30.0" prefWidth="30.0" text="-" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="root" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Button layoutX="248.0" layoutY="147.0" mnemonicParsing="false" onAction="#switchToChoixMode" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #324B5B;" text="Jouer" textFill="#d0b715" />
+      <Button layoutX="247.0" layoutY="186.0" mnemonicParsing="false" onAction="#switchToSauvegardes" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #324B5B;" text="Sauvegardes" textFill="#d0b715" />
+      <Button layoutX="247.0" layoutY="227.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #324B5B;" text="Quitter" textFill="#d0b715" />
+      <Label layoutX="166.0" layoutY="6.0" prefHeight="114.0" prefWidth="269.0" text="QUI EST-CE?" textFill="#d0b715">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgsettings" fitHeight="50.0" fitWidth="52.0" layoutX="541.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="540.0" layoutY="23.0" mnemonicParsing="false" onAction="#openSettings" opacity="0.0" prefHeight="50.0" prefWidth="52.0" text="Button" />
+      <ImageView fx:id="imgGenerateur" fitHeight="50.0" fitWidth="52.0" layoutX="14.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="14.0" layoutY="26.0" mnemonicParsing="false" onAction="#openSettingsGenerateur" opacity="0.0" prefHeight="50.0" prefWidth="52.0" style="-fx-background-color: #324B5B;" textFill="#d0b715" />
+      <AnchorPane fx:id="ConfigGenerateur" layoutX="110.0" layoutY="97.0" prefHeight="240.0" prefWidth="401.0" style="-fx-background-color: #ae9e37; -fx-opacity: 1;" visible="false">
+         <children>
+            <ChoiceBox fx:id="ChoiceBoxGenerateur" layoutX="24.0" layoutY="28.0" prefHeight="50.0" prefWidth="355.0" style="-fx-background-color: #ae9e37; -fx-opacity: 1;" />
+            <Button layoutX="41.0" layoutY="115.0" mnemonicParsing="false" onAction="#switchToGenerateur" prefHeight="50.0" prefWidth="320.0" style="-fx-background-color: #ae9e37; -fx-opacity: 1;" text="Modifier Grille" />
+            <Button layoutX="38.0" layoutY="182.0" mnemonicParsing="false" onAction="#switchToNouveauGenerateur" prefHeight="50.0" prefWidth="326.0" style="-fx-background-color: #ae9e37; -fx-opacity: 1;" text="Nouvelle grille" />
+            <ImageView fx:id="exitGenerateurPannel" fitHeight="31.0" fitWidth="35.0" layoutX="366.0" pickOnBounds="true" preserveRatio="true" />
+            <Button layoutX="366.0" mnemonicParsing="false" onAction="#closeSettingsGenerateur" opacity="0.0" prefHeight="31.0" prefWidth="35.0" />
+            <Label fx:id="status" layoutX="90.0" layoutY="88.0" prefHeight="25.0" prefWidth="281.0" textFill="#ee5555" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="Configuration" layoutX="100.0" layoutY="87.0" prefHeight="240.0" prefWidth="401.0" style="-fx-background-color: #ae9e37; -fx-opacity: 1;" visible="false">
+         <children>
+            <ChoiceBox fx:id="ChoiceBoxGrille" layoutX="24.0" layoutY="28.0" prefHeight="50.0" prefWidth="355.0" />
+            <Button layoutX="41.0" layoutY="186.0" mnemonicParsing="false" onAction="#validerGrille" prefHeight="43.0" prefWidth="320.0" style="-fx-background-color: #324B5B;" text="ValiderGriller" textFill="#d0b715" />
+            <ImageView fx:id="exitGrillePannel" fitHeight="31.0" fitWidth="35.0" layoutX="366.0" pickOnBounds="true" preserveRatio="true" />
+            <Button layoutX="366.0" mnemonicParsing="false" onAction="#closeSettings" opacity="0.0" prefHeight="31.0" prefWidth="35.0" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

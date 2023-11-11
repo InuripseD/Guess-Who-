@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="700.0" maxWidth="1200.0" minHeight="700.0" minWidth="1200.0" prefHeight="700.0" prefWidth="1200.0" styleClass="scrollPane" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerEnJeu2">
+   <children>
+      <ListView fx:id="ListViewAttribut" layoutX="12.5" layoutY="60.0" opacity="0.53" prefHeight="350.0" prefWidth="225.0" style="-fx-background-color: none;" />
+      <ListView fx:id="ListViewArgument" layoutX="962.5" layoutY="12.5" opacity="0.53" prefHeight="560.0" prefWidth="225.0" />
+      <Button fx:id="ButtonVerification" layoutX="368.0" layoutY="600.0" maxHeight="40.0" maxWidth="150.0" mnemonicParsing="false" onAction="#verifierArgumentPersoCache" prefHeight="26.0" prefWidth="86.0" style="-fx-background-color: #324B5B;" text="LOCK IN" textFill="#d0b715" />
+      <Label fx:id="LabelReponse" layoutX="300.0" layoutY="592.0" prefHeight="41.0" prefWidth="76.0" text="Réponse" textFill="RED" />
+      <Button fx:id="ButtonBan" layoutX="564.0" layoutY="600.0" mnemonicParsing="false" onAction="#ban" prefHeight="26.0" prefWidth="87.0" style="-fx-background-color: #324B5B;" text="BAN" textFill="#d0b715" />
+      <CheckBox fx:id="CheckBoxTriche" layoutX="1071.0" layoutY="668.0" mnemonicParsing="false" onAction="#activeTriche" prefHeight="18.0" prefWidth="110.0" text="Mode Triche" textFill="#d0b715" />
+      <Button fx:id="ButtonAnalyse" layoutX="971.0" layoutY="664.0" mnemonicParsing="false" onAction="#analyser" prefHeight="26.0" prefWidth="85.0" style="-fx-background-color: #324B5B;" text="Analyser" textFill="#d0b715" />
+      <ChoiceBox fx:id="ChoiceBoxConstructeur" layoutX="9.0" layoutY="20.0" prefHeight="26.0" prefWidth="47.0" style="-fx-background-color: #324B5B;" />
+      <Button layoutX="146.0" layoutY="20.0" mnemonicParsing="false" onAction="#ajouterQuestion" prefHeight="26.0" prefWidth="91.0" style="-fx-background-color: #324B5B;" text="Ajouter Question" textFill="#d0b715">
+         <font>
+            <Font size="10.0" />
+         </font></Button>
+      <ScrollPane fx:id="TexteScroll" layoutX="12.5" layoutY="422.5" prefHeight="265.0" prefWidth="225.0">
+        <content>
+          <AnchorPane fx:id="ChatBox" prefHeight="268.0" prefWidth="206.0">
+               <children>
+                  <Label fx:id="LabelChat" layoutY="4.0" prefHeight="18.5" prefWidth="206.0" textFill="#d0b715" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <ScrollPane layoutX="250.0" layoutY="12.5" prefHeight="560.0" prefWidth="700.0" style="-fx-background-color: none;" stylesheets="@application.css">
+         <content>
+          <AnchorPane fx:id="AnchorPhotoPersonnage" minHeight="0.0" minWidth="0.0" prefHeight="125.0" prefWidth="680.0" style="-fx-background-color: none;" stylesheets="@application.css">
+               <children>
+                  <GridPane fx:id="GridePanePersonnage" hgap="5.0" layoutX="12.5" layoutY="12.5" prefHeight="100.0" prefWidth="100.0" vgap="5.0">
+                     <rowConstraints>
+                        <RowConstraints minHeight="100.0" prefHeight="100.0" />
+                     </rowConstraints>
+                  </GridPane>
+               </children>
+               <padding>
+                  <Insets right="50.0" />
+               </padding>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Button layoutX="1095.0" layoutY="579.0" mnemonicParsing="false" onAction="#switchToMenu" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #324B5B;" text="QUITTER" textFill="#d0b715" />
+      <Button layoutX="973.0" layoutY="579.0" mnemonicParsing="false" onAction="#save" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #324B5B;" text="SAUVEGARDER" textFill="#d0b715" />
+      <ChoiceBox fx:id="ChoiceBoxConstructeur2" layoutX="60.0" layoutY="21.0" prefHeight="26.0" prefWidth="76.0" style="-fx-background-color: #324B5B;" />
+      <CheckBox fx:id="CheckBoxFacile" layoutX="1071.0" layoutY="640.0" mnemonicParsing="false" onAction="#activerFacile" text="Mode Facile" textFill="#d0b715" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,102 @@
+{
+  "personnages" : [ {
+    "Couleur" : "Rose",
+    "role" : "MID",
+    "categorie" : [ "Mage", "Assassin" ],
+    "photo" : "AhriSquare.png",
+    "degat" : "Magique",
+    "id" : "0",
+    "type" : "Creature",
+    "nom" : "Ahri"
+  }, {
+    "Couleur" : "Vert",
+    "role" : "SUPPORT",
+    "categorie" : "Tank",
+    "photo" : "AlistarSquare.png",
+    "degat" : "Physique",
+    "id" : "1",
+    "type" : "Creature",
+    "nom" : "Alistar"
+  }, {
+    "Couleur" : "Jaune",
+    "role" : "JUNGLE",
+    "categorie" : "Tank",
+    "photo" : "AmumuSquare.png",
+    "degat" : "Magique",
+    "id" : "2",
+    "type" : "Creature",
+    "nom" : "Amumu"
+  }, {
+    "Couleur" : "Rouge",
+    "role" : "MID",
+    "categorie" : "Mage",
+    "photo" : "AnnieSquare.png",
+    "degat" : "Magique",
+    "id" : "3",
+    "type" : "Humain",
+    "nom" : "Annie"
+  }, {
+    "Couleur" : [ "Rouge", "Blanc", "Bleu" ],
+    "role" : "ADC",
+    "categorie" : "Tireur",
+    "photo" : "ApheliosSquare.png",
+    "degat" : "Physique",
+    "id" : "4",
+    "type" : "Humain",
+    "nom" : "Aphelios"
+  }, {
+    "Couleur" : [ "Bleu Cosmic", "Blanc", "Bleu" ],
+    "role" : "MID",
+    "categorie" : "Mage",
+    "photo" : "AurelionSolSquare.png",
+    "degat" : "Magique",
+    "id" : "5",
+    "type" : "Dieu",
+    "nom" : "AurelionSol"
+  }, {
+    "Couleur" : "Jaune",
+    "role" : "MID",
+    "categorie" : "Mage",
+    "photo" : "AzirSquare.png",
+    "degat" : "Magique",
+    "id" : "6",
+    "type" : "Dieu",
+    "nom" : "Azir"
+  }, {
+    "Couleur" : [ "Jaune", "Rouge" ],
+    "role" : [ "MID", "SUPPORT" ],
+    "categorie" : "Mage",
+    "photo" : "BrandSquare.png",
+    "degat" : "Magique",
+    "id" : "7",
+    "type" : "Creature",
+    "nom" : "Brand"
+  }, {
+    "Couleur" : "Bleu",
+    "role" : "SUPPORT",
+    "categorie" : "Tank",
+    "photo" : "BraumSquare.png",
+    "degat" : "Physique",
+    "id" : "8",
+    "type" : "Humain",
+    "nom" : "Braum"
+  }, {
+    "Couleur" : "Vert",
+    "role" : "MID",
+    "categorie" : "Mage",
+    "photo" : "CassiopeiaSquare.png",
+    "degat" : "Magique",
+    "id" : "9",
+    "type" : "Creature",
+    "nom" : "Cassio"
+  }, {
+    "Couleur" : "Violet",
+    "role" : [ "MID", "SUPPORT" ],
+    "categorie" : "Mage",
+    "photo" : "VelKozSquare.png",
+    "degat" : "Magique",
+    "id" : "10",
+    "type" : "Creature",
+    "nom" : "Velkoz"
+  } ]
+}

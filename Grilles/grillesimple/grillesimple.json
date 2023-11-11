@@ -1,0 +1,292 @@
+{
+    "personnages" : [
+        {
+            "id" : 0,
+            "photo": "AatroxSquare.png",
+            "nom" : "Aatrox",
+            "role" : "TOP",
+            "categorie" : "Combattant",
+            "type" : "Creature",
+            "degat" : "Physique" 
+        },
+        {
+            "id" : 1,
+            "photo": "AkaliSquare.png",
+            "nom" : "Akali",
+            "role" : "MID",
+            "categorie" : "Assassin",
+            "type" : "Humain",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 2,
+            "photo": "AkshanSquare.png",
+            "nom" : "Akshan",
+            "role" : ["MID","TOP","ADC"],
+            "categorie" : "Tireur",
+            "type" : "Humain",
+            "degat" : "Physique" 
+        },
+        {
+            "id" : 3,
+            "photo": "AniviaSquare.png",
+            "nom" : "Anivia",
+            "role" : "MID",
+            "categorie" : "Mage",
+            "type" : "Dieu",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 4,
+            "photo": "CaitlynSquare.png",
+            "nom" : "Caitlyn",
+            "role" : "ADC",
+            "categorie" : "Tireur",
+            "type" : "Humain",
+            "degat" : "Physique" 
+        },
+        {
+            "id" : 5,
+            "photo": "DariusSquare.png",
+            "nom" : "Darius",
+            "role" : "TOP",
+            "categorie" : "Combattant",
+            "type" : "Humain",
+            "degat" : "Physique" 
+        },
+        {
+            "id" : 6,
+            "photo": "DrMundoSquare.png",
+            "nom" : "DrMundo",
+            "role" : "TOP",
+            "categorie" : "Tank",
+            "type" : "Creature",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 7,
+            "photo": "FiddlesticksSquare.png",
+            "nom" : "Fiddlesticks",
+            "role" : "JUNGLE",
+            "categorie" : "Mage",
+            "type" : "Creature",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 8,
+            "photo": "GnarSquare.png",
+            "nom" : "Gnar",
+            "role" : "TOP",
+            "categorie" : "Combattant",
+            "type" : "Creature",
+            "degat" : "Physique" 
+        },
+        {
+            "id" : 9,
+            "photo": "IreliaSquare.png",
+            "nom" : "Irelia",
+            "role" : ["TOP","MID"],
+            "categorie" : "Combattant",
+            "type" : "Humain",
+            "degat" : "Physique" 
+        },
+        {
+            "id" : 10,
+            "photo": "KarthusSquare.png",
+            "nom" : "Karthus",
+            "role" : "MID",
+            "categorie" : "Mage",
+            "type" : "Creature",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 11,
+            "photo": "LeBlancSquare.png",
+            "nom" : "LeBlanc",
+            "role" : "MID",
+            "categorie" : ["Mage","Assassin"],
+            "type" : "Humain",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 12,
+            "photo": "LuluSquare.png",
+            "nom" : "Lulu",
+            "role" : "SUPPORT",
+            "categorie" : "Soigneur",
+            "type" : "Creature",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 13,
+            "photo": "LuxSquare.png",
+            "nom" : "Lux",
+            "role" : ["MID","SUPPORT"],
+            "categorie" : "Mage",
+            "type" : "Humain",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 14,
+            "photo": "MalphiteSquare.png",
+            "nom" : "Malphite",
+            "role" : ["TOP","SUPPORT"],
+            "categorie" : "Tank",
+            "type" : "Creature",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 15,
+            "photo": "MissFortuneSquare.png",
+            "nom" : "MissFortune",
+            "role" : "ADC",
+            "categorie" : "Tireur",
+            "type" : "Humain",
+            "degat" : "Physique" 
+        },
+        {
+            "id" : 16,
+            "photo": "MorganaSquare.png",
+            "nom" : "Morgana",
+            "role" : "SUPPORT",
+            "categorie" : "Mage",
+            "type" : "Dieu",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 17,
+            "photo": "NamiSquare.png",
+            "nom" : "Nami",
+            "role" : "SUPPORT",
+            "categorie" : "Soigneur",
+            "type" : "Creature",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 18,
+            "photo": "NeekoSquare.png",
+            "nom" : "Neeko",
+            "role" : "MID",
+            "categorie" : "Mage",
+            "type" : "Creature",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 19,
+            "photo": "RengarSquare.png",
+            "nom" : "Rengar",
+            "role" : "JUNGLE",
+            "categorie" : "Assassin",
+            "type" : "Creature",
+            "degat" : "Physique" 
+        },
+        {
+            "id" : 20,
+            "photo": "SejuaniSquare.png",
+            "nom" : "Sejuani",
+            "role" : "JUNGLE",
+            "categorie" : "Tank",
+            "type" : "Humain",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 21,
+            "photo": "SennaSquare.png",
+            "nom" : "Senna",
+            "role" : ["ADC","SUPPORT"],
+            "categorie" : ["Tireur","Soigneur"],
+            "type" : "Humain",
+            "degat" : "Physique" 
+        },
+        {
+            "id" : 22,
+            "photo": "SwainSquare.png",
+            "nom" : "Swain",
+            "role" : "SUPPORT",
+            "categorie" : "Mage",
+            "type" : "Humain",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 23,
+            "photo": "TahmKenchSquare.png",
+            "nom" : "TahmKench",
+            "role" : "SUPPORT",
+            "categorie" : "Tank",
+            "type" : "Creature",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 24,
+            "photo": "TristanaSquare.png",
+            "nom" : "Tristana",
+            "role" : "ADC",
+            "categorie" : "Tireur",
+            "type" : "Creature",
+            "degat" : "Physique" 
+        },
+        {
+            "id" : 25,
+            "photo": "ViegoSquare.png",
+            "nom" : "Viego",
+            "role" : "JUNGLE",
+            "categorie" : "Combattant",
+            "type" : "Humain",
+            "degat" : "Physique" 
+        },
+        {
+            "id" : 26,
+            "photo": "VolibearSquare.png",
+            "nom" : "Volibear",
+            "role" : ["JUNGLE","TOP"],
+            "categorie" : "Tank",
+            "type" : "Dieu",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 27,
+            "photo": "WarwickSquare.png",
+            "nom" : "Warwick",
+            "role" : "JUNGLE",
+            "categorie" : "Combattant",
+            "type" : "Creature",
+            "degat" : "Physique" 
+        },
+        {
+            "id" : 28,
+            "photo": "XerathSquare.png",
+            "nom" : "Xerath",
+            "role" : "MID",
+            "categorie" : "Mage",
+            "type" : "Dieu",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 29,
+            "photo": "YuumiSquare.png",
+            "nom" : "Yuumi",
+            "role" : "SUPPORT",
+            "categorie" : "Soigneur",
+            "type" : "Creature",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 30,
+            "photo": "ZacSquare.png",
+            "nom" : "Zac",
+            "role" : "JUNGLE",
+            "categorie" : "Tank",
+            "type" : "Creature",
+            "degat" : "Magique" 
+        },
+        {
+            "id" : 31,
+            "photo": "ZedSquare.png",
+            "nom" : "Zed",
+            "role" : "MID",
+            "categorie" : "Assassin",
+            "type" : "Humain",
+            "degat" : "Physique" 
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="root" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SettingsController">
+   <children>
+      <Pane fx:id="settingsPane" layoutX="181.0" layoutY="78.0" prefHeight="244.0" prefWidth="239.0" style="-fx-background-color: #000000; -fx-background-radius: 10;" stylesheets="@application.css">
+         <children>
+            <ImageView fx:id="iVolume" fitHeight="45.0" fitWidth="60.0" layoutX="89.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="iGrille" fitHeight="45.0" fitWidth="60.0" layoutX="98.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="34.0" fitWidth="42.0" layoutX="221.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+      <ImageView fx:id="imgsettings" fitHeight="34.0" fitWidth="42.0" layoutX="562.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
